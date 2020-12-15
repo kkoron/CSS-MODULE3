@@ -5,13 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap Starter Page</title>
+    <title>MOD3 Codign Assignment </title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+<!--          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+-->
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+<!--            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span>Kosher Certified</span>
+            </p>
+-->
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a  class="text-center hidden-md hidden-lg" href="#"> Chicken </a>
+<!--                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+-->
+           </li>
+            <li>
+              <a  class="text-center hidden-md hidden-lg" href="#"> Beef </a>
+            </li>
+            <li>
+              <a  class="text-center hidden-md hidden-lg" href="#"> Sushi </a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="./js/jquery-1.11.3.min.js"></script>
